@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+  margin: 10px 0;
+}
+
+.row:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.column {
+  float: left;
+}
+
+.row {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.first-container, .second-container {
+  margin-bottom: 20px;
+}
+
+.third-container {
+  margin-bottom: 5px;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 30px;
+  padding-right: 20px;
+  border-right: 1px solid lightgrey;
+}
+
+.menu {
+  display: inline;
+  color: #CCC3C0;
+  margin-right: 10px;
+}
+
+.second-container .column {
+  background-image: url('img/banner.jpg');
+  height: 430px;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.overlay {
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.overlay.h-430 {
+  height: 430px;
+}
+
+.second-container .overlay > .article-title {
+  padding: 260px 0 0 50px;
+  width: 530px;
+  color: white;
+}
+
+.article-title > h1 {
+  font-weight: normal;
+}
+
+.third-container .column:nth-child(3) {
+  padding: 0 15px;
+}
+
+.third-container .column {
+  margin-bottom: 20px;
+}
+
+
+.third-container .left-column.image {
+  background-image: url(img/img-1.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  height: 250px;
+}
+
+.overlay.h-250 {
+  height: 250px;
+}
+
+.left-column h2, .middle-column h2, .right-column h2 {
+  margin: 5px 0;
+}
+
+.third-container .middle-column.image {
+  background-image: url('img/banner-2.jpg');
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.third-container .right-column.image {
+  background-image: url(img/img-6.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  height: 250px;
+}
+
+.fourth-container .column {
+  text-align: center;
+}
+
+#heart {
+  color: red;
+}
